@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+ 
+html {
+    font-size: 62.5%;
+
+}
+ 
+ 
+/*Η αλλαγη αυτη εγινε γιατι ο browser εχει σαν  default font size τα 16 πχ αμμα εβαζα 10px  δεν θα επαιζε σωστα το site σε καποιον που εχει κανει ζοομ στον browser του */
+ 
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1, 6rem;
+    line-height: 1.7;
+    color: $color-primary-grey;
+    padding: 3rem;
+    /*gia to padding p exei gyro gyro */
+    box-sizing: border-box;
+    // background-color: $color-black;
+}
+ 

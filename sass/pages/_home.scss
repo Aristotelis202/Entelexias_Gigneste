@@ -1,0 +1,42 @@
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  margin-top: -25vh;
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: url(../img/background_img.jpg);
+  background-size: cover;
+
+}
+
+.you-can-also {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  margin-top: -10rem;
+
+}
+
+.section_stories {
+  position: relative;
+  padding: 15rem 0;
+  // background-image: linear-gradient(to right bottom,$color-primary-light, $color-primary-dark) ;
+}
+
+.book {
+  background-image: linear-gradient(150deg,
+      rgba($color-white, .9)0%,
+      rgba($color-white, .9)50%,
+      transparent 50%) ,
+    url(../img/booking.jpg);
+  background-size: 100%;
+  /*mporw anti gia cover na valw 100%*/
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem 0 rgba($color-black, .2);
+  height: 50rem;
+  &_form{
+    width: 50%;
+    padding: 6rem;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "my_site",
+  "version": "1.0.0",
+  "description": "Landing page for Entelenxias Gigneste",
+  "main": "index.js",
+  "scripts": {
+      "compile:sass": "node-sass sass/main.scss  css/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Aristotelis202/Entelexias_Gigneste.git"
+  },
+  "author": "Aristos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aristotelis202/Entelexias_Gigneste/issues"
+  },
+  "homepage": "https://github.com/Aristotelis202/Entelexias_Gigneste#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
+}
