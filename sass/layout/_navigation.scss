@@ -1,5 +1,3 @@
-
-
 .navigation {
     &_checkbox {
         display: none;
@@ -17,8 +15,6 @@
         box-shadow: 0 1rem 3rem rgba($color-black, .1);
         text-align: center;
         cursor: pointer;
-
-      
     }
 
     &_background {
@@ -32,6 +28,7 @@
         z-index: 1000;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
+        //transform: scale(80);
     }
 
     &_nav {
@@ -110,7 +107,7 @@
         &::after {
             width: 3rem;
             height: 2px;
-            background-color: $color-tertiary-dark;
+            background-color: $color-grey-dark;
             display: inline-block;
         }
 

@@ -519,7 +519,7 @@
   .navigation_icon, .navigation_icon::before, .navigation_icon::after {
     width: 3rem;
     height: 2px;
-    background-color: #808080;
+    background-color: #999;
     display: inline-block; }
   .navigation_icon::before, .navigation_icon::after {
     content: "";
